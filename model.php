@@ -64,7 +64,7 @@ QUERY;
     // *******************************************
     // メール送信の準備
     // *******************************************
-    $mail_address = "lightbox@webapp.chips.jp";
+    $mail_address = "a@b.c.jp";
     // 差出人の名前は自由に変更可能
     $from_header = "From: " . mb_encode_mimeheader( mb_convert_encoding("差出人の名前","iso-2022-jp") );
     // メールアドレスは偽装可能。但し迷惑メールになる可能性は高い
